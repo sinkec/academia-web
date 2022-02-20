@@ -3,6 +3,7 @@
     background:var(--primary-color-dark);
     display: flex;
     justify-content: space-between;
+    height: 60px;
 }
 
 .navbar-menu-middle ul
@@ -19,4 +20,28 @@
     text-decoration: none;
     font-weight: bold;
     color:var(--main-text-color-light);
+}
+
+.profile-card-right{
+    
+    margin-top: 10px;
+    margin-right: 10px;
+    background:skyblue;
+    height: 250px;
+    width: 180px;
+}
+.logo-left
+{
+   font-size: 24px;
+   color:white;
+   margin-top: 5px;
+   margin-left: 10px;
+ 
+}
+.logo-left span
+{
+   font-size: 30px;
+   color:violet;
+   font-weight: bold;
+ 
 }
