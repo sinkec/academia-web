@@ -1,12 +1,12 @@
 const NavbarMenu = () => {
     return ( 
-        <div className="navbar-menu">
+        <div className="navbar-menu-middle">
             <ul>
-                <li>Menu 1</li>
-                <li>Menu 2</li>
-                <li>Menu 3</li>
-                <li>Menu 4</li>
-                <li>Menu 5</li>
+                <li><a href = "">Domov</a></li>
+                <li><a href = "">Predmetnik</a></li>
+                <li><a href = "">CoLab</a></li>
+                <li><a href = "">Obveznosti</a></li>
+                <li><a href = "">Portfolio</a></li>
             </ul>
         </div>
      );

@@ -1,3 +1,4 @@
+import './CSS/Navbar.css';
 import NavbarMenu from "./NavbarMenu";
 import ProfileCard from "./ProfileCard";
 
@@ -5,7 +6,9 @@ const Navbar = () => {
     return ( 
         <div className="navbar">
 
-            <h1>Academia Logo</h1>
+            <div className="logo-left">
+                LOGO
+            </div>
             <NavbarMenu/>
             <ProfileCard/>
         </div>

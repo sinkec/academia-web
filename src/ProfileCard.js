@@ -1,6 +1,6 @@
 const ProfileCard = () => {
     return ( 
-        <div className="profilecard">
+        <div className="profile-card-right">
             <h3>Avatar</h3>
         </div>
      );
