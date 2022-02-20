@@ -1,9 +1,13 @@
+import NavbarMenu from "./NavbarMenu";
+import ProfileCard from "./ProfileCard";
+
 const Navbar = () => {
     return ( 
         <div className="navbar">
-            
-            <h1>Hello, world!</h1>
-            <h3>Greetings mr robot</h3>
+
+            <h1>Academia Logo</h1>
+            <NavbarMenu/>
+            <ProfileCard/>
         </div>
      );
 }
