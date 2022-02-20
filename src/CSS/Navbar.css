@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     height: 60px;
+    box-shadow: 1px 1px 5px 1px #000000;
 }
 
 .navbar-menu-middle ul
@@ -24,18 +25,21 @@
 
 .profile-card-right{
     
-    margin-top: 10px;
-    margin-right: 10px;
-    background:skyblue;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-right: 25px;
+    background:rgb(172, 172, 172);
     height: 250px;
     width: 180px;
+    box-shadow: 1px 1px 5px 1px #000000;
 }
 .logo-left
 {
    font-size: 24px;
    color:white;
    margin-top: 5px;
-   margin-left: 10px;
+   margin-left: 20px;
+  
  
 }
 .logo-left span
@@ -43,5 +47,4 @@
    font-size: 30px;
    color:violet;
    font-weight: bold;
- 
 }
