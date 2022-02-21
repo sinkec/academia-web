@@ -12,11 +12,11 @@
     display: flex;
     list-style: none;
 }
-.navbar-menu-middle ul li
+.navbar-menu-middle li
 {
     margin: 10px;;
 }
-.navbar-menu-middle ul li a
+.navbar-menu-middle a
 {
     text-decoration: none;
     font-weight: bold;
@@ -26,18 +26,19 @@
 .profile-card-right{
     
     border-radius: 5px;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-right: 25px;
-    background:rgb(172, 172, 172);
+    background:var(--primary-color-light);
     height: 250px;
     width: 180px;
-    box-shadow: 1px 1px 5px 1px #000000;
+    box-shadow: 0px 0px 0px 1px var(--border-color),
+    1px 1px 5px 1px var(--shadow-color);
 }
 .logo-left
 {
    font-size: 24px;
    color:white;
-   margin-top: 5px;
+   margin-top: 10px;
    margin-left: 20px;
   
  
