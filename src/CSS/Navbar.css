@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-between;
     height: 60px;
-    box-shadow: 1px 1px 5px 1px #000000;
 }
 
 .navbar-menu-middle ul
@@ -36,10 +35,11 @@
 }
 .logo-left
 {
-   font-size: 24px;
-   color:white;
-   margin-top: 10px;
-   margin-left: 20px;
+    
+    font-size: 24px;
+    color:white;
+    margin-top: 10px;
+    margin-left: 20px;
   
  
 }
