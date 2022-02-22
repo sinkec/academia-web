@@ -5,12 +5,6 @@ const login = () => {
 
 
     </div>
-
-
-
-
-        
-     );
+    );
 }
- 
-export default login;
+ export default login;

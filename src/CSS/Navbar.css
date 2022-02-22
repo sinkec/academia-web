@@ -5,20 +5,25 @@
     justify-content: space-between;
     height: 70px;
 }
+.navbar-menu-middle
+{
+    width: 800px;
+}
 .navbar-menu-middle ul
 {
+    margin-top: 23px;
     display: flex;
     list-style: none;
 }
 
-.navbar-menu-middle li
+.navbar-menu-middle li:not(:first-child)
 {
-    margin: 10px;;
+    margin-left: 30px;;
 }
 .navbar-menu-middle a
 {
     text-decoration: none;
-    font-weight: bold;
+    font-weight: light;
     color:var(--main-text-color-light);
 }
 

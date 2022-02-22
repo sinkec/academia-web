@@ -17,6 +17,8 @@ body {
   color: var(--main-text-color);
   
   font-family: Poppins;
+  font-size: 14;
+  font-weight:light;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--primary-color);
