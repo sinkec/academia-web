@@ -13,4 +13,4 @@ const login = () => {
      );
 }
  
-export default ;
+export default login;
