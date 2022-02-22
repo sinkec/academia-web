@@ -6,7 +6,7 @@ const Navbar = () => {
     return ( 
         <div className="navbar">
 
-            <img src="LogoLogo.svg" className="logo-left"></img>
+            <img src="img/SVG/Logo.svg" className="logo-left"></img>
 
             <NavbarMenu/>
             <ProfileCard/>

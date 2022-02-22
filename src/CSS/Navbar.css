@@ -30,16 +30,32 @@
 
 .profile-card-right{
     
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-right: 25px;
-    background:var(--primary-color-light);
-    height: 250px;
+    display: flex;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+    background:var(--Panel-color);
+    height: 38px;
     width: 180px;
-    box-shadow: 0px 0px 0px 1px var(--border-color),
-    1px 1px 5px 1px var(--shadow-color);
+    box-shadow: 0px 2px 2px 2px var(--shadow-color) ;
 }
-
+.username
+{
+    margin:auto;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 270;
+    color:aliceblue; 
+}
+.profile-card-right img
+{
+    margin: 7px;
+    height:24px;
+    width: 24px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 0px 2px var(--Navbar-color);
+}
 
 .logo-left
 {

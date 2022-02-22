@@ -2,11 +2,11 @@
 {
   
   --Navbar-color:#181818;
-  --primary-color: #c05c5c;
-  --primary-color-light:#252525;
+  --Background-color: #252525;
+  --Panel-color:#404040;
 
   --border-color: #707070;
-  --shadow-color:#000000;
+  --shadow-color:#00000077;
 
   --main-text-color: #333333;
   --main-text-color-light: #c0c0c0;
@@ -21,7 +21,7 @@ body {
   font-weight:light;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--primary-color);
+  background: var(--Background-color);
 }
 
 code {
