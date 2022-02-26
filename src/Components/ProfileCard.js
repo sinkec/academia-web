@@ -1,3 +1,5 @@
+import "./ProfileCard.css";
+
 const ProfileCard = () => {
   let logedIn = true;
   let Username = "Matej Jazbinšek";

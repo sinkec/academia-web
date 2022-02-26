@@ -1,0 +1,25 @@
+.profile-card-right {
+  display: flex;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-right: 20px;
+  background: var(--Panel-color);
+  height: 38px;
+  width: 180px;
+  box-shadow: 0px 2px 2px 2px var(--shadow-color);
+}
+.username {
+  margin: auto;
+  margin-left: 5px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 270;
+  color: aliceblue;
+}
+.profile-card-right img {
+  margin: 7px;
+  height: 24px;
+  width: 24px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 0px 2px var(--Navbar-color);
+}

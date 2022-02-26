@@ -1,3 +1,5 @@
+import "./NavbarMenu.css";
+
 const NavbarMenu = () => {
   return (
     <div className="navbar-menu-middle">
